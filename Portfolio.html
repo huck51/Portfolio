@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+    .info {
+        margin: 2em;
+    }
+    #plane {
+        color: black;
+    }
+    #sendIt {
+        background-color: white;
+        border-radius: 4px;
+    }
+    #fcc {
+        background-color: darkgreen;
+        color: white;
+    }
+    #git {
+        background-color: black;
+        color: white;
+    }
+    #linkedin {
+        background-color: rgb(0, 96, 151);
+        color: white;
+    }
+    #circ {
+        height 25%;
+        width: 85%;
+        border-radius: 100px;
+        position: relative;
+        left: 8%;
+        margin: auto;
+        bottom: 2em;
+        border-style: solid;
+        border-color: white;
+        border-width: thick;
+        opacity: 0.99;
+    }
+    #tac {
+        border-radius: 15px;
+    }
+    .bottomOut {
+        padding-bottom: 4em;
+    }
+    .drop {
+        background-color: rgb(70, 70, 70);
+        opacity: 0.8;
+        width: 17em;
+        border-radius: 5px;
+    }
+    .bricks {
+        height: 75%;
+        width: 75%;
+        border-style: solid;
+        border-width: thick;
+        border-radius: 15px;
+        margin-left: 4em;
+    }
+    .thumbs {
+        background-color: rgb(205, 205, 205);
+        height: auto;
+        opacity: 0.9
+    }
+    .crackBlock {
+        background-color: rgb(4, 184, 102);
+        height: 5em;
+        opacity: 1;
+    }
+    .tomtom {
+        background-color: rgb(4, 184, 102);
+        opacity: 0.97
+        
+    }
+    .groundback {
+        background-image: url(woodbg.jpeg);
+        
+    }
+    .imgSize {
+        width: 100%;
+        min-height: 700px;
+        height: 700px;
+    }
+    .compartment {
+        height: auto;
+        width:auto;
+    }
+    .about {
+        padding-top: 3em;
+    }
+    .contact {
+        
+    }
+    .negs {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .crackLine {
+        padding: 0px;
+    }
+    h2 {
+        text-align: center;
+        padding-bottom: 25px;
+        color: white;
+    }
+    h3 {
+        text-align: center;
+        color: white;
+        margin: 5px;
+    }
+    p {
+        margin: 2em;
+        color: white;
+    }
+    i {
+        color: white;
+    }
+    button {
+        border-style: none;
+        border-radius: 15px;
+        box-shadow: 2px 2px 2px black;
+        margin: 10px;
+    }
+    a, a:link {
+        color: white;
+        text-decoration: none;
+    }
+    a, a:visited {
+        color: white;
+        text-decoration: none;
+    }
+    label {
+        color: white;
+    }
+
+</style>
+<body>
+
+<!-- Nav ------------------->
+<div class="w3-top">
+    <div class="w3-row w3-large">
+        <div class="w3-col s3">
+            <a href="#myCarousel" class="w3-button w3-block tomtom">Home</a>
+        </div>
+        <div class="w3-col s3">
+            <a href="#about" class="w3-button w3-block tomtom">About</a>
+        </div>
+        <div class="w3-col s3">
+            <a href="#projects" class="w3-button w3-block tomtom">Projects</a>
+        </div>
+        <div class="w3-col s3">
+            <a href="#contact" class="w3-button w3-block tomtom">Contact</a>
+        </div>
+    </div>
+</div>
+
+<!--Carousel------------------->
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    
+    <div class="carousel-inner" role="listbox">
+        <div class="item active imgSize">
+            <img class="imgSize" src="stackofstones.jpeg">
+        </div>
+        <div class="item imgSize">
+            <img class="imgSize" src="nature-forest-trees-fog.jpeg">
+        </div>
+        <div class="item imgSize">
+            <img class="imgSize" src="onTheRightTrack.jpeg">
+        </div>
+        <div class="item imgSize">
+            <img class="imgSize" src="rockStream.jpg">
+        </div>
+    </div>
+</div>
+
+<!-- Content ------------------------->
+    
+<div class="container-fluid crackBlock">
+    <div class="row">
+        <div class="col-sm-5 col-md-5">
+            <h2 class="crackLine">Evan Allen</h2>
+        </div>
+        <div class="col-sm-2 col-md-2">
+            <img id="circ" src="snipe.png">
+        </div>
+        <div class="col-sm-5 col-md-5">
+            <h2 class="crackLine">Evan Allen</h2>
+        </div>
+    </div>
+</div>
+    
+<!--About------------------>
+<div class="negs groundback">  
+    <div id="about" class="boards compartment negs">
+    <h2 class="negs about">About</h2>
+    </div>
+
+<!--Projects------------->
+    
+    <div id="projects" class="about compartment bottomOut">
+        <h2>Projects</h2>
+        <div class="row bottomOut">
+            <div class="col-sm-offset-1 col-sm-11 col-md-offset-1 col-md-5">
+                <div class="w3-display-container">
+                    <img src="bricks.jpeg" class="bricks">
+                        <div class="w3-display-middle container drop">
+                            <h3>Coming Soon...</h3>
+                        </div> 
+                </div>
+            </div>
+            <div class="col-sm-5 col-md-5">
+                <div class="w3-display-container">
+                    <img src="bricks.jpeg" class="bricks">
+                        <div class="w3-display-middle container drop">
+                            <h3>Coming Soon...</h3>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="row bottomOut">
+            <div class="col-sm-offset-1 col-sm-5 col-md-offset-1 col-md-5">
+                <div class="w3-display-container">
+                    <img src="bricks.jpeg" class="bricks">
+                        <div class="w3-display-middle container drop">
+                            <h3>Coming Soon...</h3>
+                        </div>
+                </div>
+            </div>
+            <div class="col-sm-5 col-md-5">
+                <div class="w3-display-container">
+                    <img class="bricks" src="bricks.jpeg">
+                    <div class="w3-display-middle container drop">
+                        <h3>Coming Soon...</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--Contact-------------->
+    
+    <div id="contact" class="contact compartment">
+        <h2>Contact</h2>
+            <div class="row">
+                <div class="col-md-5 info">
+                <form id="tac" class="container tomtom">
+                    <label>Name:</label>
+                    <br  />
+                    <input type="text" name="name" placeholder="Name" size="50px">
+                    <br />
+                    <br  />
+                    <label>Email:</label>
+                    <br  />
+                    <input type="text" name="email" placeholder="Ex: johndoe@gmail.com" size="50px">
+                    <br  />
+                    <br  />
+                    <label>Phone Number:</label>
+                    <br  />
+                    <input type="text" name="phone" placeholder="Ex: ###-###-####" size="50px">
+                    <br  />
+                    <br  />
+                    <label>Message:</label>
+                    <br  />
+                    <textarea type="text" name="message" placeholder="Your message here..." cols="60" rows="10"></textarea>
+                    <br  />
+                    <button id="sendIt" type="submit"><i id="plane" class="fa fa-paper-plane-o" aria-hidden="true"></i> Send It!</button>
+                </form>
+                </div>
+                <div class="col-md-5 info">
+                    <h3>Send me a message!</h3>
+                        <p>Interested in hiring me? Wanna give me feedback on my portfolio? Just want to say "Hi"? Great! I would love to hear from you! Please feel free to contact me by filling out the fields to the left or via any of the methods listed below.</p>
+                    <div>
+                        
+                        <button id="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/evan-allen-1b533864/" target="_blank"> LinkedIn</a></button>
+                        <button id="git"><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/huck51" target="_blank"> GitHub</a></button>
+                        <button id="fcc">
+                            <i class="fa fa-free-code-camp" aria-hidden="true"></i><a href="https://www.freecodecamp.com/huck51" target="_blank"> Free Code Camp</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+</body>
+</html>
