@@ -47,8 +47,23 @@
     #tac {
         border-radius: 15px;
     }
+    .bio {
+      width: 100%;
+      margin: 0;
+      font-size: 1.5em;
+    }
     .bottomOut {
         padding-bottom: 4em;
+    }
+    .box {
+      margin: 0 3.5em;
+      padding: 1em;
+    }
+    .bport {
+        border-style: solid;
+        border-width: thick;
+        border-radius: 15px;
+        border-color: rgba(70, 70, 70, .8);
     }
     .drop {
         background-color: rgb(70, 70, 70);
@@ -139,6 +154,11 @@
     label {
         color: white;
     }
+    #ls {
+      text-decoration: underline;
+      text-decoration-color: blue;
+      color: blue;
+    }
 
 </style>
 <body>
@@ -205,8 +225,26 @@
 
 <!--About------------------>
 <div class="negs groundback">
-    <div id="about" class="boards compartment negs">
+    <div id="about">
     <h2 class="negs about">About</h2>
+      <div class="tomtom bio">
+        <div class="box">
+        <p class="">Welcome to my portfolio! My name is Evan. I am a fullstack
+          developer from Minneapolis. I am currently enrolled at <a href="https://lambdaschool.com/" target="_blank" id="ls">Lambda School</a>
+          where I am learning full-stack development using React and React Native.
+          We have also spent quite a bit of time at LambdaU exploring some of the deeper
+          concepts in computer science like the Traveling Salesman Problem and the
+          Dining Philosophers problem. In additon, we have spent time working in C
+          and python. When I am not coding, I enjoy hiking, mountain biking, playing
+          hockey, and building/riding wakesurf boards.
+          <br />
+          <br />
+          Please feel free to explore my page and check out some of my projects.
+          I am constantly updating and adding projects to my portfolio so be sure to
+          come back soon and check out my progress!
+        </p>
+      </div>
+      </div>
     </div>
 
 <!--Projects------------->
@@ -216,19 +254,18 @@
         <div class="row bottomOut">
             <div class="col-sm-offset-1 col-sm-11 col-md-offset-1 col-md-5">
                 <div class="w3-display-container">
-                    <img src="./Images/bricks.jpeg" class="bricks">
-                        <div class="w3-display-middle container drop">
-                            <button>
-                              <a href="https://huck51.github.io/Greenfield-Piano/" target="_blank">JavaScript Piano</a></button>
-                        </div>
+                    <a href="https://huck51.github.io/Greenfield-Piano/" target="_blank"><img src="./Images/jspiano.png" class="bricks bport"></a>
+                        <!--div class="w3-display-middle container drop">
+                            <button class="drop"><a href="https://huck51.github.io/Greenfield-Piano/" target="_blank">JavaScript Piano</a></button>
+                        </div-->
                 </div>
             </div>
             <div class="col-sm-5 col-md-5">
                 <div class="w3-display-container">
-                    <img src="./Images/bricks.jpeg" class="bricks">
-                        <div class="w3-display-middle container drop">
-                            <h3>Coming Soon...</h3>
-                        </div>
+                  <a href="https://webdevbootcamp-huck51.c9users.io/campgrounds" target="_blank"><img src="./Images/CG.png" class="bricks bport"></a>
+                    <!--img src="./Images/bricks.jpeg" class="bricks"-->
+                        <!--div class="w3-display-middle container drop">
+                        </div-->
                 </div>
             </div>
         </div>
@@ -283,7 +320,10 @@
                 </div>
                 <div class="col-md-5 info">
                     <h3>Send me a message!</h3>
-                        <p>Interested in hiring me? Wanna give me feedback on my portfolio? Just want to say "Hi"? Great! I would love to hear from you! Please feel free to contact me by filling out the fields to the left or via any of the methods listed below.</p>
+                        <p>Interested in hiring me? Wanna give me feedback on
+                          my portfolio? Just want to say "Hi"? Great! I would
+                          love to hear from you! To see more of my work check
+                          my GitHub repository below.</p>
                     <div>
 
                         <button id="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/evan-allen-1b533864/" target="_blank"> LinkedIn</a></button>
